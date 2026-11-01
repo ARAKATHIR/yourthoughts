@@ -90,3 +90,7 @@
 .invite-page .sample-header{background:#faf6eeee}.invite-page .sample-header .brand{color:#382e29}.invite-page .sample-header .sample-home{color:#655b68}.invite-page .sample-footer{background:#342a27}
 @media(max-width:680px){.sample-cta-grid{display:block}.sample-cta .button{margin-top:22px}.sample-showcase .sample-footer .container{display:block}.sample-showcase .sample-footer a{display:inline-block;margin-top:8px}}
 @media(max-width:420px){.invitation-feature-copy b{font-size:1.02rem}}
+
+.demo-photo{position:absolute;z-index:-3;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85;transition:transform .5s}.demo-card:hover .demo-photo{transform:scale(1.06)}
+.anniv-photo-story{padding:64px 0;background:#faf5ec}.anniv-photo-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.anniv-photo-grid figure{margin:0;padding:7px 7px 28px;background:#fffdf7;box-shadow:0 11px 27px #493a3018}.anniv-photo-grid figure:nth-child(odd){transform:rotate(-2deg)}.anniv-photo-grid figure:nth-child(even){transform:rotate(2deg)}.anniv-photo-grid img{width:100%;height:205px;object-fit:cover}.anniv-photo-grid figcaption{text-align:center;padding-top:7px;font:500 .78rem "Playfair Display";color:#72533c}
+@media(max-width:680px){.anniv-photo-story{padding:49px 0}.anniv-photo-grid{grid-template-columns:repeat(2,1fr)}.anniv-photo-grid img{height:190px}.anniv-photo-grid figure:last-child{display:none}}
